@@ -1,0 +1,109 @@
+.App{
+ 
+  height: 100 vh;
+  padding-top: 10px;
+  background-color: rgb(145, 121, 167);
+  font-family: Lato,sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo-contenedor{
+width: 100%;
+height: 50px;
+margin: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.logo{
+height: 40px;
+
+}
+/*****CALCULADORA*****/
+.contenedor-calculadora{
+width: 400px;
+height: 600px;
+padding: 14px;
+background-color: #99c9ff;
+border-radius: 20px;
+border: 5px solid white;
+}
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*** ESTILO BOTON***/
+.boton-contenedor{
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border:2px solid white;
+  cursor: pointer;
+  user-select: none;
+  flex: 1 1;
+
+}
+.boton-contenedor:hover{
+  background-color: brown;
+
+}
+
+.operador{
+
+background-color: red;
+}
+
+.operador:hover{
+
+  background-color: aqua;
+}
+/*******PANTALLA*********/
+.input{
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:forestgreen;
+    color: white;
+    padding: 11px 30px 11px 11px;
+    padding-right: 30px;
+    margin: 1px solid grey;
+    box-shadow: -1px 4px 1px 1px;
+
+}
+/**********BOTON CLEAR *********/
+
+.boton-clear{
+
+height: 80px;
+font-size: 1.6em;
+display: flex;
+flex: 1;
+background-color: orange;
+margin-top: 8px;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+border-radius:  2px solid white;
+cursor: pointer;
+border-radius: 45px;
+}
+.boton-clear:hover{
+    background-color: crimson;
+
+}
